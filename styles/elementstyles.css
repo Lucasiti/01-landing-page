@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #c9e9ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+background-color: rgb(0, 68, 255);
+color: white;
+padding: 20px;
+position: fixed;
+top: 0;
+width: 100%;
+height: 80px;
+
+}
+ul {
+  list-style-type: none;
+  
+}
+
+li {
+  display: inline-block;
+}
+
+nav {
+  float: right;
+  font-size: 20px;
+  background-color: #6dbff5;
+  padding: 5px;
+  border: solid 2px;
+}
+h1 {
+  display: inline-block;
+  margin-left: 50px; 
+}
+h2, h3 {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 8px;
+}
+.subtitle {
+margin-top: 30px;
+
+}
+a {
+color: white;
+text-decoration: none;
+margin-left: 15px;
+margin-right: 15px;
+}
+.elements {
+  height: 600px;
+  padding: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.figpic {
+  margin-top: 50px;
+  background-color: rgb(10, 0, 0);
+
+}
+.centred {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.leftpara {
+  margin-top: 10px;
+  padding-left: 50px;
+ 
+
+}
+.rightpara {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+/*
+.imgtxt {
+  position: absolute;
+  top: 240px;
+  right: 200px;
+  color: azure;
+  font-size: 30px;
+}
+*/
+.details {
+  background-color: white;
+
+}
+article {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.cform {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+input[type=text] {
+  width: 600px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid rgb(3, 145, 10);
+  border-radius: 4px;
+}
+input[type=text]:focus {
+  background-color: rgba(154, 247, 5, 0.911);
+}
+input[type=button] {
+  width: 200px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid rgb(3, 145, 10);
+  background-color: rgb(3, 145, 10);
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+div {
+  float: left;
+  padding-right:40px ;
+  padding-top:20px ;
+  padding-bottom: 40px;
+  margin-left: 40px;
+}
+.div1 {
+  width: 60%;
+}
+.div2 {
+  width: 30%;
+  background-color: white;
+}
+.contactus {
+  width: 100%;
+  background-color: rgb(211, 245, 118);
+  margin-left: 0;
+  padding-left: 37px;
+}
+.footer {
+  text-align: center;
+  padding: 30px;
+  margin-left: 0;
+  background-color: blue;
+  color: white;
+  width: 100%;
+}
+
+.topbutton {
+cursor: pointer;
+font-weight: bold;
+font-size: 15px;
+border: solid 1px white;
+background-color: blue;
+color: white;
+padding: 10px;
+margin-top: 20px;
+}
